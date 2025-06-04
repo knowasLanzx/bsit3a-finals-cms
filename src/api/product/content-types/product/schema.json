@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Product_name": {
+      "type": "string"
+    },
+    "Product_description": {
+      "type": "string"
+    },
+    "categories": {
+      "type": "enumeration",
+      "enum": [
+        "MEAT",
+        "BEVERAGE"
+      ]
+    },
+    "stock": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}
